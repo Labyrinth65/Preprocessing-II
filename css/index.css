@@ -188,7 +188,8 @@ nav a {
 }
 @media (max-width: 500px) {
   nav a {
-    font-size: 1.4rem;
+    white-space: nowrap;
+    font-size: 1.3rem;
   }
 }
 .footer {
