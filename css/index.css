@@ -203,6 +203,9 @@ nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home {
+  margin-top: 6%;
+}
 @media (max-width: 500px) {
   .home {
     margin: 0 2%;
@@ -337,7 +340,18 @@ nav a {
 header {
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: 9%;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  header {
+    position: relative;
+  }
 }
 header .header-content {
   display: flex;

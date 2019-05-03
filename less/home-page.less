@@ -1,4 +1,5 @@
 .home {
+  margin-top: 6%;
   @media @max500 {
     margin: 0 2%;
     width: 96%;
@@ -110,7 +111,16 @@
 header {
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: 9%;
   border-bottom: 2px dashed @navigation-border;
+  @media @max500 {
+    position: relative;
+  }
   .header-content {
     display: flex;
     justify-content: space-between;
