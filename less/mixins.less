@@ -1,1 +1,12 @@
 // Mixins in here
+.button (@color, @radius: 0) {
+    padding: 10px 40px;
+    border-radius: @radius;
+    background-color: @color;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: blue;
+        transition: 1s;
+    }
+}
